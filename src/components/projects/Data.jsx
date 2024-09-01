@@ -11,6 +11,7 @@ export const projectsData = [
       title: 'Resort Bookking',
       description: 'Effortlessly Manage Resorts with a Modern, Full-Stack Solution – Tailored for Seamless Client and Admin Experiences',
       category: 'Web Development',
+      techStack:'React, Node.js, MongoDB, Express',
     },
     {
       id: 2,
@@ -18,15 +19,17 @@ export const projectsData = [
       title: 'Zen Vision',
       description: 'A machine learning approach to real-time Yoga Pose Recognition',
       category: 'Machine Learning',
+      techStack:'Python, Open-cv, MediaPipe, Tensorfow',
     },
     {
-        id: 2,
+        id: 3,
         image: Project3,
         title: 'Airport Management',
         description: 'The airport management system presented in this project addresses the need for a comprehensive solution to optimize airport operations.',
         category: 'App Development',
+        techStack:' MySQL, Java ',
       },
-    // Add more projects as needed
+    
   ];
   
 
@@ -34,7 +37,7 @@ export const projectsNav = [
     {
         name: "All",
     },
-    {
+   /* {
         name: "A",
     },
     {
@@ -45,5 +48,5 @@ export const projectsNav = [
     },
     {
         name:"D"
-    }
+    } */
 ];
