@@ -1,28 +1,34 @@
-import Project1 from "../../assets/project1.webp";
-import Project2 from "../../assets/project2.webp";
-import Project3 from "../../assets/project3.webp";
+import Project1 from "../../assets/p1.jpeg";
+import Project2 from "../../assets/p2yoga.png";
+import Project3 from "../../assets/P3DBMS.png";
 
 
+// Data.js
 export const projectsData = [
     {
-        id: 1,
-        image: Project1,
-        title: "Project 1",
-        category: "A",
+      id: 1,
+      image: Project1,
+      title: 'Resort Bookking',
+      description: 'Effortlessly Manage Resorts with a Modern, Full-Stack Solution – Tailored for Seamless Client and Admin Experiences',
+      category: 'Web Development',
+    },
+    {
+      id: 2,
+      image: Project2,
+      title: 'Zen Vision',
+      description: 'A machine learning approach to real-time Yoga Pose Recognition',
+      category: 'Machine Learning',
     },
     {
         id: 2,
-        image: Project2,
-        title: "Project 2",
-        category: "B",
-    },
-    {
-        id: 3,
         image: Project3,
-        title: "Project 3",
-        category: "C",
-    },
-];
+        title: 'Airport Management',
+        description: 'The airport management system presented in this project addresses the need for a comprehensive solution to optimize airport operations.',
+        category: 'App Development',
+      },
+    // Add more projects as needed
+  ];
+  
 
 export const projectsNav = [
     {
@@ -37,4 +43,7 @@ export const projectsNav = [
     {
         name: "C",
     },
+    {
+        name:"D"
+    }
 ];

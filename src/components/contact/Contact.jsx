@@ -27,9 +27,9 @@ const Contact = () => {
                         <HiOutlineMail className="contact__card-icon" />
                         
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">cyphrsylph@gmail.com</span>
+                        <span className="contact__card-data">hemanth.is21@sahyadri.edu.in</span>
                         
-                        <a href="mailto:cyphersylph@gmail.com" className="contact__button">
+                        <a href="mailto:hemanth.is21@sahyadri.edu.in" className="contact__button">
                             Write Me{" "} 
                             <HiOutlineArrowSmRight className="contact__button-icon" />
                         </a>
@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__content">
-                <h3 className="contact__title">What's the project?</h3>
+                <h3 className="contact__title">Contact me </h3>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
@@ -51,10 +51,12 @@ const Contact = () => {
                         <input type="email" name="email" className="contact__form-input" placeholder="Type your email" />
                     </div>
 
-                    <div className="contact__form-div contact__form-area">
-                        <label className="contact__form-tag">Project</label>
-                        <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Provide some project details..."></textarea>
+                    <div className="contact__form-div">
+                        <label className="contact__form-tag">Contact No</label>
+                        <input type="email" name="email" className="contact__form-input" placeholder="Phone No +91" />
                     </div>
+
+                    
 
                     <button href="#contact" className="button button--flex">
                         Send Message
