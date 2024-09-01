@@ -1,22 +1,26 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/aboutBW.jpeg";
+import AboutImg from "../../assets/pic3.avif";
 import CV from "../../assets/Example-Cv.pdf";
-import Info from "./Info";
+//import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
         <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">A short introduction</span>
+        <span className="section__subtitle container grid">I'm Hemanth B G, an Information Science Engineering student with
+              some experience  web  development. 
+            I've interned at PHN Technologies and Codingkey LLP, where I developed responsive web applications and enhanced user
+             engagement. Skilled in  C++, React, and full-stack development, I've also completed projects in the domin of web , Machine Learning 
+             and Android App. I'm passionate about AI and always eager to  learn new technologies and take on new challenges and collaborations. </span>
         <div className="about__container container grid">
             <img src={AboutImg} alt="about" className="about__img" />
             <div className="about__data">
-                <Info />
+               
                 <p className="about__description">
-                    I create applications highlighting minimal design and friendly UI/UX interfaces.
+                 
                 </p>
-                <a download="" href={CV} className="button button--flex">
+                <a href="https://drive.google.com/file/d/1H1Nzh95sFtpo5nHnl4m-5GSyZW8FgA-A/view?usp=sharing"  className="button button--flex">
                     Download CV
                     <svg
                         class="button__icon"
@@ -39,9 +43,11 @@ const About = () => {
                             fill="var(--container-color)"
                         ></path>
                         <path
-                            d="M11.25 17.7502H7.25C6.84 17.7502 6.5 17.4102 6.5 17.0002C6.5 16.5902 6.84 16.2502 7.25 16.2502H11.25C11.66 16.2502 12 16.5902 12 17.0002C12 17.4102 11.66 17.7502 11.25 17.7502Z"
+                            d="M22.25 10.7502H18.25C14.83 10.7502 13.5 9.42023 13.5 6.00023V2.00023C13.5 1.70023 13.68 1.42023 13.96 1.31023C14.24 1.19023 14.56 1.26023 14.78 1.47023L22.78 9.47023C22.99 9.68023 23.06 10.0102 22.94 10.2902C22.82 10.5702 22.55 10.7502 22.25 10.7502ZM15 3.81023V6.00023C15 8.58023 15.67 9.25023 18.25 9.25023H20.44L15 3.81023Z"
                             fill="var(--container-color)"
-                        ></path>
+                        ></path> 
+                       
+                       
                     </svg>
                 </a>
             </div>

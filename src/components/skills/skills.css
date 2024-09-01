@@ -12,22 +12,23 @@
 }
 
 .skills__title {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-size: large;
+    font-weight:bold;
     text-align: center;
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: 0.5rem;
+    
 }
 
 .skills__box {
     display: flex;
     justify-content: center;
-    column-gap: 2.5rem;
+    column-gap: 0.5rem;
 }
 
 .skills__group {
     display: grid;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 0.5rem;
 }
 
 .skills__data {
@@ -37,7 +38,7 @@
 
 .skills svg {
     font-size: 1rem;
-    color: var(--title-color);
+    color: rgb(182, 85, 182);
 }
 
 .skills__name {
