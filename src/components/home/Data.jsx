@@ -4,15 +4,17 @@ const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Cyphr Sylph
+            HEMANTH B G
             <svg
-                width="36"
+                width="40"
                 height="36"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 class="home__hand"
                 >
+
+                    {/* the bellow are to fill  the colors in the hand */}
                 <path
                     d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
                     fill="#B5D15E"
@@ -54,6 +56,9 @@ const Data = () => {
                     fill="#89A635"
                 ></path>
             </svg>
+
+
+
         </h1>
         <h3 className="home__subtitle">
             Developer + Designer

@@ -6,13 +6,14 @@ const Scroll = () => {
     <div className="home__scroll">
         <a href="#about" className="home__scroll-button button--flex">
             <svg
-                width="32px"
+                width="60px"
                 height="32px"
                 class="home__scroll-mouse"
                 viewBox="0 0 247 390"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
+                
                 style={{
                     fillRule: "evenodd",
                     clipRule: "evenodd",
